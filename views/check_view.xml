@@ -4,22 +4,9 @@
         <xpath expr="//div[last()]" position="after">
             <div class="mb-3 field-phone">
                 <label for="phone">Phone Number</label>
-                <input type="text" name="phone" id="phone" class="form-control form-control-sm" required="required"/>
+                <input type="text" name="phone" id="phone" class="form-control form-control-sm"
+                       required="required" placeholder="e.g. 01012345678"/>
             </div>
         </xpath>
     </template>
 </odoo>
-
-        <!--<odoo>-->
-        <!--    <template id="auth_signup" inherit_id="auth_signup.fields" name="Auth Signup/ResetPassword form fields">-->
-        <!--        <xpath expr="//div[last()]" position="after">-->
-        <!--            <div class="mb-3 field-phone">-->
-        <!--                <label for="phone">Phone Number</label>-->
-        <!--                <input type="text" name="phone" id="phone" class="form-control form-control-sm"-->
-        <!--                       t-att-value="phone" placeholder="01012345678"-->
-        <!--                       required="required" t-att-readonly="'readonly' if only_passwords else None"-->
-        <!--                       t-att-autofocus="'autofocus' if phone and not only_passwords else None"/>-->
-        <!--            </div>-->
-        <!--        </xpath>-->
-        <!--    </template>-->
-        <!--</odoo>-->
